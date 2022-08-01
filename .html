@@ -1,0 +1,50 @@
+<h1 id="title">Adjunt Faculty Shedule Request</h1>
+
+<p id="description">fill in details celow to complete your request</p>
+
+<form id="survey-form">
+  <label for="name" id="name-label">Name</label>
+  <input type="text" id="name" placeholder="Enter Name" required/>
+  <br>
+  <label for="email" id="email-label">Email</label>
+  <input type="email" name="email" id="email" placeholder="name@pasadena.edu" required>
+  <br>
+  <label for="number" id="number-label">Number of Classes You Would Like to Teach</label>
+  <input type="number" name="number" id="number" placeholder="1" min="1" max="2" required>
+  <br>
+  <label for="dropdown" id="division">Select Division</label>
+  <select id="dropdown">
+    <option value="CIS">CIS - Computer Information Sistems</option>
+    <option value="BIT">BIT - Business Informacion Technplogy</option>
+</select>
+<br><br>
+<label for="tod" id="tod"><b>Time of Day</b></label>
+<br>
+<input type="radio" name="hour" id="tod" value="morning">
+<label for="tod">Morning: 8a - 11:59a</label>
+<br>
+<input type="radio" name="hour" id="tod" value="afternoon">
+<label for="tod">Afternoon: 12p - 4:59p</label>
+<br>
+<input type="radio" name="hour" id="tod" value="evening">
+<label for="tod">Evening: 5p - 10p</label>
+<br><br>
+<label for="mode"><b>Mode</b></label>
+<br> 
+<input type="checkbox" name="mode" id="checkbox" value="online">
+<label for="checkbox">Online</label>
+<br>
+<input type="checkbox" name="mode" id="checkbox" value="ftf">
+<label for="checkbox">In Person / FTF (face-to-face)</label>
+<br>
+<input type="checkbox" name="mode" id="checkbox" value="hybrid">
+<label for="checkbox">Hybrid</label>
+<br><br>
+<label for="textarea">Enter the Courses You Are Interested in Teaching</label>
+<br>
+<textarea name="instructions" id="textarea" cols="40" rows="10"></textarea>
+<br><br>
+<input type="submit" id="submit" value="submit">
+
+
+  </form>
